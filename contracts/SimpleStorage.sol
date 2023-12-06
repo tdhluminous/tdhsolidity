@@ -4,7 +4,7 @@ pragma solidity 0.8.22;
 contract SimpleStorage {
 
 // gets initialized to zero if not given
-    uint256 public myfavoriteNumber;
+    uint256 public myFavoriteNumber;
 
     //uint256[] listOfFavoriteNumbers; 
     struct Person {
@@ -18,16 +18,16 @@ contract SimpleStorage {
 
     mapping(string => uint256) public nameToFavoriteNumber;
 
-
-    function store(uint256 _favoriteNumber) public {
-        myfavoriteNumber = _favoriteNumber;
+// virtual keyword below means that this function is overridable
+    function store(uint256 _favoriteNumber) public virtual {
+        myFavoriteNumber = _favoriteNumber;
     }
 
 // designating this function as view means you are disallowing changing of state, 
 // this function can only read data from the chain
 // pure functions disallow reading from or altering state, view and pure functions do not use gas
     function retrieve() public view returns(uint256){
-        return myfavoriteNumber;
+        return myFavoriteNumber;
     }
 
 

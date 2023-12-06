@@ -93,6 +93,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "sayHello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -134,11 +147,11 @@
 	},
 	"sources": {
 		"contracts/AddFiveStorage.sol": {
-			"keccak256": "0xb971c96475a6886dae63e81ade67c8df417cdcf0971d14452fefac70f19504fa",
+			"keccak256": "0xcb6a020f9c8579795f56d8cd4073ef316af9ae6ce9b395e686b4a2fd5bf983ca",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b4340e476eb8880157699b1aecfb087640985d4a15c14e0539b74d8317680239",
-				"dweb:/ipfs/QmWv8Fr7TuJtxceyV7Yv3cqTyaLwpjhNLLzGMYueLm8rnh"
+				"bzz-raw://b2030bb06da02f79a406daefb219196f72d71a0f018f1787afa4ec7ee9479608",
+				"dweb:/ipfs/Qmb4nGB2DXj68hBhXxXUmRxWtnjbo2bSytgiHSSRZNztAn"
 			]
 		},
 		"contracts/SimpleStorage.sol": {
