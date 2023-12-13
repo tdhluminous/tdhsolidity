@@ -49,7 +49,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "myfavoriteNumber",
+				"name": "myFavoriteNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -93,23 +93,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "sayHello",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_favoriteNumber",
+						"name": "_newNumber",
 						"type": "uint256"
 					}
 				],
@@ -147,19 +134,19 @@
 	},
 	"sources": {
 		"contracts/AddFiveStorage.sol": {
-			"keccak256": "0xcb6a020f9c8579795f56d8cd4073ef316af9ae6ce9b395e686b4a2fd5bf983ca",
+			"keccak256": "0x4a9d2c97e7bc4e05e2016495a7fcfdf4dc7e3f07ba8eeb0841c872d906cb5794",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b2030bb06da02f79a406daefb219196f72d71a0f018f1787afa4ec7ee9479608",
-				"dweb:/ipfs/Qmb4nGB2DXj68hBhXxXUmRxWtnjbo2bSytgiHSSRZNztAn"
+				"bzz-raw://1f3f8c07ec37642285c83979fb31df2d1f12556a7ebe5cfc5df92c0452bd3a8b",
+				"dweb:/ipfs/QmYUwzKAR3X2jYy4o9wZ3eaG2LofPcftYTDyXmx2FJrjmx"
 			]
 		},
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x8f1abe94706e1c4e9796a8f70428c5189bc965853d1d83cf38219c09ade5d780",
+			"keccak256": "0x310659faa06be8b1e99ef40e2dbdfeabb5071c34d28825a3d04a736904c05d19",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://03dc22683520bf9d73e85d2725164acab11a7aebd4467a8aba59b53d68edcfaa",
-				"dweb:/ipfs/QmSmYo61UfA9BiuACWkxWdWmijEaaCzLYqcSckfv1ser6Q"
+				"bzz-raw://80f261ab887d251731c3a626bd07bdd545014555533fc50f5fc78607b1059d45",
+				"dweb:/ipfs/QmTzsygixVZxvi86pFwSR5hqKbMEa5g75ppWXdCF8cHWg3"
 			]
 		}
 	},
