@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.22;
 
-import {SimpleStorage} from "./SimpleStorage.sol";
+import {SimpleStorage} from "./SimpleStorage.sol";  // this is an example of a named import
 
 // below is inheritance of SimpleStorage, all of this contracts
 // functionality is now available from this contract
