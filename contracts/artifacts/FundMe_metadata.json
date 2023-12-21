@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -11,10 +11,32 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [],
+				"name": "NotOwner",
+				"type": "error"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "MINIMUM_USD",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "funder",
+						"name": "",
 						"type": "address"
 					}
 				],
@@ -22,7 +44,7 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "amountFunded",
+						"name": "",
 						"type": "uint256"
 					}
 				],
@@ -57,7 +79,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "minimumUsd",
+				"name": "getVersion",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -70,7 +92,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "i_owner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -87,6 +109,10 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -125,11 +151,11 @@
 			]
 		},
 		"contracts/FundMe.sol": {
-			"keccak256": "0x2495534c26956b8dcf9afd0aedc89adad2fce3ff3058c0a53a4b9abafa5b73ff",
+			"keccak256": "0x0a106f2cb747b8e738aa8ab5781e19d028551f79f01ee1a1bd42cc45121c2975",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3d76ea6b7c7f1a15e362c7627180b0ca4d8e89b16295c8fe686990cbcf9665e8",
-				"dweb:/ipfs/QmT18sEhh6fpbxwHMt1GYbYUHpEwkajt3MrSg2SdVGedbA"
+				"bzz-raw://0696f86fb8ccf8b6b1350fe78fdab749d2bd856ad42baa2f4fb658098ee67e55",
+				"dweb:/ipfs/QmeDcUtjuABNdwEBeYY1xXVtcFamWt2QvCyoaoFYvkbVP2"
 			]
 		},
 		"contracts/PriceConverter.sol": {
