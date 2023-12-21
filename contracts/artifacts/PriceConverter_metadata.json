@@ -1,56 +1,10 @@
 {
 	"compiler": {
-		"version": "0.8.22+commit.4fc1097e"
+		"version": "0.8.23+commit.f704f362"
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "ethAmount",
-						"type": "uint256"
-					}
-				],
-				"name": "getConversionRate",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getPrice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getVersion",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -87,11 +41,11 @@
 			]
 		},
 		"contracts/PriceConverter.sol": {
-			"keccak256": "0x024765613a24bc34a42a8d5d8bbb6dbbd44b5efbf9da3bc78436f9fe89c8aca0",
+			"keccak256": "0x2699723ff09619867d0d915f076459478a60ee44194f62c2a83e6a83460d42ae",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5632ea0bd9b150360fc2db980b5c537a9fa4d41fc6c609fabddf69a5af47b830",
-				"dweb:/ipfs/QmNiFPHxSzeqeHXsiyk1iQgSZEfy7i34eJKrtbD5h6nFaX"
+				"bzz-raw://a3a25cff2e021c22fdd573ce48763372168c1927f1f78e162d9b71c2ef6abcd2",
+				"dweb:/ipfs/QmRgzms3ipr9Etn3b14KHLwxYrAu6KYLsKVZRtPqoka54h"
 			]
 		}
 	},
